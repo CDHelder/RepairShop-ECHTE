@@ -1,0 +1,18 @@
+﻿@model IEnumerable<RepairShop.Data.Models.RepairOrder>
+
+@{
+	ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>PC Repairshop</h1>
+
+    <div>
+        Welcome to the PC Repairshop
+        <br>
+        <br>
+        Currently there are @Model.Count() repair orders in de the database.
+    </div>
+
+
+</div>
